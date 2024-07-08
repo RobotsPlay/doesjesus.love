@@ -6,10 +6,10 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Page() {
   return (
     <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+      className={`flex min-h-screen flex-col text-center items-center justify-between py-12 px-8 md:p-24 ${inter.className}`}
     >
       <div className="z-10 max-w-5xl w-full">
-        <h1 className="text-4xl">Jesus said to love one another...</h1>
+        <h1 className="text-5xl font-black">Jesus said to love one another...</h1>
         
         <Main />
       </div>
