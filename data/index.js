@@ -49,6 +49,8 @@ export const whitelist = [
     {id: 'women', label: 'Women'},
 ]
 
+export const site_url = 'https://listentojes.us/';
+
 const affirmatives = [
     'Yes',
     'Absolutely',
@@ -65,3 +67,10 @@ const affirmatives = [
 export const getAffirmative = () => {
     return affirmatives[Math.floor(Math.random() * affirmatives.length)]
 }
+
+export const citations = [
+    {
+        text: '',
+        reference: ''
+    }
+];
