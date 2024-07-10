@@ -50,7 +50,7 @@ export const whitelist = [
     {id: 'women', label: 'Women'},
 ]
 
-export const site_url = 'https://listentojes.us/';
+export const site_url = 'https://doesjesus.love/';
 
 const affirmatives = [
     'Yes',

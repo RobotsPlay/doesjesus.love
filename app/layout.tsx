@@ -8,11 +8,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Listen to Jesus',
     description: 'Jesus said to love one another, but did he mean everyone? Yes, he did.',
-    url: 'https://listentojes.us',
+    url: 'https://doesjesus.love',
     siteName: 'Listen to Jesus',
     images: [
       {
-        url: 'https://listentojes.us/listen-to-jesus.png', // Must be an absolute URL
+        url: 'https://doesjesus.love/listen-to-jesus.png', // Must be an absolute URL
         width: 711,
         height: 484,
       },
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Listen to Jesus',
     description: 'Jesus said to love one another, but did he mean everyone? Yes, he did.',
-    images: ['https://listentojes.us/listen-to-jesus.png'], // Must be an absolute URL
+    images: ['https://doesjesus.love/listen-to-jesus.png'], // Must be an absolute URL
   },
 }
 
