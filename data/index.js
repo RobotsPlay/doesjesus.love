@@ -20,6 +20,7 @@ export const whitelist = [
     {id: 'illegals', label: 'Illegals'},
     {id: 'imigrants', label: 'Immigrants'},
     {id: 'israelis', label: 'Israelis'},
+    {id: 'jews', label: 'Jews'},
     {id: 'latinos', label: 'Latinos'},
     {id: 'leftists', label: 'Leftists'},
     {id: 'lgbtq', label: 'LGBTQ+'},
@@ -28,6 +29,7 @@ export const whitelist = [
     {id: 'native-americans', label: 'Native Americans'},
     {id: 'non-binary', label: 'Non-Binary People'},
     {id: 'maga', label: 'MAGA'},
+    {id: 'me', label: 'Me'},
     {id: 'men', label: 'Men'},
     {id: 'muslims', label: 'Muslims'},
     {id: 'palestinians', label: 'Palestinians'},
@@ -48,6 +50,7 @@ export const whitelist = [
     {id: 'white-people', label: 'White People'},
     {id: 'woke', label: 'The Woke'},
     {id: 'women', label: 'Women'},
+    {id: 'you', label: 'You'},
 ]
 
 export const site_url = 'https://doesjesus.love/';
