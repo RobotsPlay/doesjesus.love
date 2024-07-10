@@ -1,9 +1,31 @@
 import { Metadata } from 'next'
 import "@/styles/globals.css";
+import { GoogleAnalytics } from '@next/third-parties/google'
  
 export const metadata: Metadata = {
   title: 'Listen to Jesus',
   description: 'Jesus said to love one another, but did he mean everyone? Yes, he did.',
+  openGraph: {
+    title: 'Listen to Jesus',
+    description: 'Jesus said to love one another, but did he mean everyone? Yes, he did.',
+    url: 'https://listentojes.us',
+    siteName: 'Listen to Jesus',
+    images: [
+      {
+        url: 'https://listentojes.us/listen-to-jesus.png', // Must be an absolute URL
+        width: 711,
+        height: 484,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Listen to Jesus',
+    description: 'Jesus said to love one another, but did he mean everyone? Yes, he did.',
+    images: ['https://listentojes.us/listen-to-jesus.png'], // Must be an absolute URL
+  },
 }
 
 export default function RootLayout({
@@ -16,6 +38,7 @@ export default function RootLayout({
             <body className="bg-orange-50 text-slate-700">
                 {children}
             </body>
+            <GoogleAnalytics gaId="G-X8VV3E0995" />
         </html>
     );
 };

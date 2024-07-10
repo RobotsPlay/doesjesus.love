@@ -9,7 +9,7 @@ export default function Page() {
       className={`flex min-h-screen flex-col text-center items-center justify-between py-12 px-8 md:p-24 ${inter.className}`}
     >
       <div className="z-10 max-w-5xl w-full">
-        <h1 className="text-5xl font-black">Jesus said to love one another...</h1>
+        <h1 className="text-3xl md:text-5xl font-black">Jesus said to love one another...</h1>
         
         <Main />
       </div>

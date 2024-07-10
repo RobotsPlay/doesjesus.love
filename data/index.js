@@ -40,6 +40,7 @@ export const whitelist = [
     {id: 'right-wingers', label: 'Right Wingers'},
     {id: 'russians', label: 'The Russians'},
     {id: 'selfish', label: 'The Selfish'},
+    {id: 'sinners', label: 'Sinners'},
     {id: 'socialists', label: 'Socialists'},
     {id: 'supreme-court-justices', label: 'Supreme Court Justices'},
     {id: 'transgender', label: 'The Transgender'},
@@ -70,7 +71,19 @@ export const getAffirmative = () => {
 
 export const citations = [
     {
-        text: '',
-        reference: ''
+        text: 'Love your enemies, do good to them, and lend to them without expecting to get anything back. Then your reward will be great, and you will be sons of the Most High, because he is kind to the ungrateful and wicked. Be merciful, just as your Father is merciful. (NIV)',
+        reference: 'Luke 6:35-36'
+    },
+    {
+        text: 'A new command I give you: Love one another. As I have loved you, so you must love one another. By this all men will know that you are my disciples, if you love one another. (NIV)',
+        reference: 'John 13:34-35'
+    },
+    {
+        text: 'Love the Lord your God with all your heart and with all your soul and with all your mind. This is the first and greatest commandment. And the second is like it: Love your neighbor as yourself. (NIV)',
+        reference: 'Matthew 22:37-39'
+    },
+    {
+        text: 'But I tell you who hear me: Love your enemies, do good to those who hate you, bless those who curse you, pray for those who mistreat you. (NIV)',
+        reference: 'Luke 6:27-28'
     }
 ];
